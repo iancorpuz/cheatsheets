@@ -21,8 +21,6 @@ _ by @francisbautista _
 ### Initialization Steps for Twitter Bootstrap 3
 1. **Configurations for bootstrap-sass in Gemfile.** The gem `bootstrap-sass` must be added to the Gemfile. Also, make sure that the `sass-rails` is available on the Gemfile.
 
-    Add the following code to the default.jade file, just below the `block styles` line.
-
         gem 'bootstrap-sass', '~> 3.2.0'
         gem 'sass-rails', '~> 4.0.3'
 
