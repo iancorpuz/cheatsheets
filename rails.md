@@ -61,3 +61,5 @@ To define the attributes of the your models, you can run the following:
 After you've finished creating the models for your application, migrations must be run to configure the database for the model. To do so, run the following commands:
 
     rake db:migrate
+
+TODO: Include manual migrations, recommended gems, routing, and model relations.
