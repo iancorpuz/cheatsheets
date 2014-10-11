@@ -1,4 +1,4 @@
 cheatsheets
 ===========
 
-Cheatsheet Library
+Cheatsheet Library for SailsJS and Ruby on Rails

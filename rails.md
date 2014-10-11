@@ -39,14 +39,15 @@ _ by @francisbautista _
         //= require jquery
         //= require bootstrap-sprockets
 
+    **Note:** Coffeescript can be used interchangeably with Javascrip for the applcation.
 ## Program Logic
 
 ### Generate Controllers and Models
-SailsJS can create controllers and models automatically for your application.
+Rails can create controllers and models automatically for your application.
 
-    sails generate api <entityname>
+    rails generate model <entityname>
 
-This will create two new files in your project: `api/controllers/<EntityName>Controller.js` and `api/models/<EntityName>.js`.
+<!-- This will create two new files in your project: `api/controllers/<EntityName>Controller.js` and `api/models/<EntityName>.js`.
 
 ### Define the Information Schema
 Open the generated model file and define the entity's data structure and how it will be validated.
@@ -200,4 +201,4 @@ SailsJS displays a default error screen when the model field validations are not
       // Jade Code
       input(type='hidden', name='_csrf', value=_csrf)
 
-+ **Data Model Schema** - add `schema: true` to the model to only allow explicitly specified attributes to be saved in the database.
++ **Data Model Schema** - add `schema: true` to the model to only allow explicitly specified attributes to be saved in the database. -->
