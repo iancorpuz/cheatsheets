@@ -67,4 +67,17 @@ After you've finished creating the models for your application, migrations must 
 
     rake db:migrate
 
+
+### Recommended Gems
+
+Gems are libraries following the bundle package manager for Rails. Listed bellow are some utility gems that will be useful in RoR application development.
+
+    gem 'seed_dump'
+    gem 'turbolinks'
+    gem 'annotate', ">=2.6.0"
+    gem 'fabrication'
+    gem 'faker'
+
+
+To install these, run `bundle install` in the console within the root of the app.
 TODO: Include manual migrations, recommended gems, routing, and model relations.
