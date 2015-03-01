@@ -2,6 +2,8 @@
 For Rails 4.1.6 /
 _ by @francisbautista _
 
+*see [Rails Install Script](https://github.com/francisbautista/ror_install_script)
+*
 ## Initialization
 
 ### Creating a Project
@@ -56,8 +58,27 @@ To define the attributes of the your models, you can run the following:
     # A sample of an actual model generation command for a Category model:
     rails g model Category category_name:string category_code:integer
 
+    # rails generate scaffold <entityname> attribute_name:data_type
+    # A sample of an actual model generation command for a Category model:
+    rails g scaffold Category category_name:string category_code:integer
+
+Scaffolding creates the model, the view, and the controller file as well as the stylesheet.
 After you've finished creating the models for your application, migrations must be run to configure the database for the model. To do so, run the following commands:
 
     rake db:migrate
 
+
+### Recommended Gems
+
+These gems are listed in the application `Gemfile`.
+Gems are libraries following the bundle package manager for Rails. Listed bellow are some utility gems that will be useful in RoR application development.
+
+    gem 'seed_dump'
+    gem 'turbolinks'
+    gem 'annotate', ">=2.6.0"
+    gem 'fabrication'
+    gem 'faker'
+
+
+To install these, run `bundle install` in the console within the root of the app.
 TODO: Include manual migrations, recommended gems, routing, and model relations.
