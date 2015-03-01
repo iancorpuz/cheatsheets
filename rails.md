@@ -2,6 +2,8 @@
 For Rails 4.1.6 /
 _ by @francisbautista _
 
+*see [Rails Install Script](https://github.com/francisbautista/ror_install_script)
+*
 ## Initialization
 
 ### Creating a Project
