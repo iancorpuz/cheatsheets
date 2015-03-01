@@ -70,6 +70,7 @@ After you've finished creating the models for your application, migrations must 
 
 ### Recommended Gems
 
+These gems are listed in the application `Gemfile`.
 Gems are libraries following the bundle package manager for Rails. Listed bellow are some utility gems that will be useful in RoR application development.
 
     gem 'seed_dump'
